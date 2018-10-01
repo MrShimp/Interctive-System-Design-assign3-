@@ -1,0 +1,293 @@
+
+html,body{
+    height: 100%;
+
+}
+
+.Mark{
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius:20px;
+  z-index:1;
+  margin-top:40px;
+  margin-left:40px;
+  position:absolute;
+}
+
+.sidebar{
+  float: left;
+  background-color: rgb(113,157,168);
+  width: 100%;
+  height: 100%;
+  display: none;
+  margin-left: 0;
+}
+
+.sliderPages{
+  height:100%;
+}
+
+.ShapePage{
+  height: 100%;
+  width:  100%;
+}
+
+.FollowingInfo{
+    font-family: Arial;
+    font-size: 22pt;
+    text-align: center;
+    color:
+}
+
+.Oval{
+  width:  100px;
+  height: 100px;
+  border: 3px solid #D3D3D3;
+  margin-left: 35%;
+  margin-top: 10%;
+  -webkit-border-radius: 100px;
+  float:left;
+}
+
+.OvalOn{
+  width:  100px;
+  height: 100px;
+  border: 3px solid #FF6347;
+  margin-left: 35%;
+  margin-top: 10%;
+  -webkit-border-radius: 100px;
+  float:left;
+}
+
+.RoundRectangle{
+  height: 100px;
+  width:  120px;
+  border: solid 3px #d3d3d3;
+  border-radius: 15px;
+  margin-left: 33%;
+  margin-top: 10%;
+
+  float: left;
+}
+.RoundRectangleOn{
+  height: 100px;
+  width:  120px;
+  border: solid 3px #FF6347;
+  border-radius: 15px;
+  margin-left: 33%;
+  margin-top: 10%;
+
+  float: left;
+}
+
+.Rectangle{
+  height: 80px;
+  width: 120px;
+  border: solid 3px #d3d3d3;
+  margin-left:  33%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  float: left;
+
+}
+
+.RectangleOn{
+  height: 80px;
+  width: 120px;
+  border: solid 3px #FF6347;
+  margin-left:  33%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  float: left;
+
+}
+
+.Shape_Size{
+  
+  display: none;
+  margin-left: 20px;
+
+}
+
+.Shape_Size input{
+  float: left;
+  margin: 20px;
+  width: 120px;
+  height: 30px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 3px solid #1E90FF;
+  background-color: inherit;
+}
+
+.BGColor{
+  display: none;
+  width: 100%;
+  margin: 10px;
+  height: 200px;
+  margin-top: 100px;
+}
+
+.BGColorBlack{
+  width:  30px;
+  height: 30px;
+  border: 3px solid;
+  -webkit-border-radius: 100px;
+  font-size: 11pt;
+  line-height: 80px;
+  text-align: center;
+  float: left;
+  margin: 10px;
+  background-color: "";
+
+}
+
+.Forward{
+  float: right;
+  margin-right: 10px;
+}
+
+.RightIcon{
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin-bottom: 20px;
+}
+.LeftIcon{
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+.FontPage{
+  height: 100%;
+  width:  100%;
+  display: none;
+}
+
+.MSG{
+  margin-top: 15px;
+  height:40%;
+}
+
+.Submit{
+  height: 20%;
+  margin-right: 5%;
+  margin-top: 8%;
+}
+.OtherInput{
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px #888888;
+  margin-left:30%;
+  background: white;
+  margin-left: 20%;
+  margin-top: 13%;
+  display: none;
+}
+
+.AllColor{
+  margin-top: 20px;
+  display: none;
+  height: 250px;
+  width: 200px;
+  border-radius: 25px;
+  background: white;
+}
+
+.FGColor1{
+  width: 35px;
+  height: 35px;
+  -webkit-border-radius: 40px;
+  vertical-align: middle;
+  margin-left: 10px;
+  float: left;
+  background-color: red;
+  margin-top: 8px;
+  
+}
+
+
+.ColorCount{
+  display: none;
+  border-top: none;
+  border-right: none;
+  border-bottom:  none;
+  border-left: none;
+  float: left;
+  margin-left: 20px;
+  width: 80px;
+  height: 30px;
+  margin-top: 6px;
+}
+
+.ColorCountButton{
+  width: 35px;
+  height: 35px;
+  -webkit-border-radius: 40px;
+  float: left;
+  margin-top: 8px;
+  border: none;
+  margin-left: 12px;
+
+}
+
+.FontInput{
+  margin-top: 15px;
+  background-color: inherit;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #FFFAFA;
+  font-family: courier;
+  margin-left: 15%;
+	font-size: 15pt;
+	text-align: center;
+}
+
+.FTSizeinput{
+	border:none;
+	font-family:courier;
+}
+
+.Font_Style{
+  float: left;
+display: block;
+margin-left: 20px;
+margin-top: 6px;
+
+}
+
+.thisSelect{
+  border: none;
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  width: 80px;
+height: 40px;
+font-family: arial;
+float: left;
+font-size:  12px;
+}
+
+
+.Font_Size{
+  border: none;
+float: left;
+width: 40px;
+height: 30px;
+margin-top: 5px;
+font-size: 14px;
+}
+.FTSize{
+  border: none;
+float: left;
+width: 40px;
+height: 30px;
+margin-top: 5px;
+font-size: 14px;
+}
